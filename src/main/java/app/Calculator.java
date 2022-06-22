@@ -40,12 +40,13 @@ public class Calculator {
 
     }
 
-    public static void deduct(){
+    public static int deduct(){
         int a = 4;
         int b = 5;
         int result = a - b;
         System.out.println("Deducted  Value : " +  result);
         System.out.println("This method can make some deduction calculation");
+        return result;
     }
 
 }
